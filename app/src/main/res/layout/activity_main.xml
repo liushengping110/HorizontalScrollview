@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_singlelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单个列表的横向滑动导航"
+        android:layout_marginTop="100px"
+        />
+
+    <Button
+        android:id="@+id/btn_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout的横向滑动导航"
+        android:layout_marginTop="100px"
+        />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wizrole.horizontalscrollview.activity.SingleListActivity">
+
+    <wizrole.horizontalscrollview.view.CenterShowHorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:scrollbars="none" />
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/yule"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="娱乐"
+        android:layout_weight="1"
+        />
+        <View
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/redian"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="热点"
+            android:layout_weight="1"
+            />
+        </LinearLayout>
+</LinearLayout>
